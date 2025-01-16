@@ -1,0 +1,8 @@
+<div class="contrainer">
+  <h1>Add movie</h1>
+  <%= simple_form_for [@list, @bookmark] do |f| %>
+    <%= f.input :comment %>
+    <%= f.association :movie, input_html: { class: 'form-select' } %>
+    <%= f.button :submit, "Add movie", class: "btn btn-primary" %>
+  <% end %>
+</div>
