@@ -9,6 +9,7 @@
 #   end
 
 # 1. Clean database
+List.destroy_all
 Movie.destroy_all
 puts "Cleaning database"
 
