@@ -1,10 +1,10 @@
 .card-movie {
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.card-movie > img {
+.card-movie>img {
   height: 200px;
   width: 100%;
   object-fit: cover;
@@ -32,9 +32,6 @@
 }
 
 .card-movie-infos .card-movie-delete {
-  position: absolute;
-  right: 16px;
-  top: -200px;
   width: 40px;
   color: red;
   text-decoration: none;
